@@ -11,6 +11,8 @@ import SwiftUI
 struct GaWaLinkApp: App {
     var body: some Scene {
         WindowGroup {
+        #if DEBUG
+        #endif
             MainTabView()
         }
     }
